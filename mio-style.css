@@ -86,3 +86,15 @@
 .ex-8-img {
   transition: 2s;
 }
+
+/* ESERCIZIO 9 */
+
+.ex-9-img:hover {
+  filter: sepia(50%) grayscale(30%);
+  border-radius: 20px;
+  transform: scale(1.5);
+}
+
+.ex-9-img {
+  transition: 2s;
+}
