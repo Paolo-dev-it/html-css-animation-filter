@@ -126,37 +126,88 @@
 /* ESERCIZIO 12 */
 
 .ex-12-button:hover .ex-12-top-white {
-  animation: top-white 2s linear;
+  animation: topwhite 2s linear;
 }
-
-@keyframes top-white {
+@keyframes topwhite {
   0% {
-    left: 15%;
+    left: 10%;
   }
-
   50% {
     left: 50%;
   }
-
   100% {
-    left: 15%;
+    left: 10%;
   }
 }
-
 .ex-12-button:hover .ex-12-bottom-white {
-  animation: bottom-white 2s linear;
+  animation: bottomwhite 2s linear;
+}
+@keyframes bottomwhite {
+  0% {
+    right: 20%;
+  }
+  50% {
+    right: 50%;
+  }
+  100% {
+    right: 20%;
+  }
 }
 
-@keyframes bottom-white {
-  0% {
-    left: 15%;
-  }
+/* ESERCIZIO 13 */
 
+.ex-13-button:hover .ex-13-top-white {
+  animation: topWhite 2s linear;
+}
+
+@keyframes topWhite {
+  0% {
+    left: 10%;
+    top: -10px;
+  }
+  30% {
+    left: 80%;
+    top: -10px;
+  }
   50% {
-    left: 50%;
+    left: 80%;
+    top: 100%;
+  }
+  80% {
+    left: 0;
+    top: 100%;
   }
 
   100% {
-    left: 15%;
+    left: 10%;
+    top: -10px;
+  }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: bottomWhite 2s linear;
+}
+
+@keyframes bottomWhite {
+  0% {
+    right: 10%;
+    bottom: -10px;
+  }
+  30% {
+    right: 80%;
+    bottom: -10px;
+  }
+  50% {
+    right: 80%;
+    bottom: 100%;
+  }
+  80% {
+    right: 0;
+    bottom: 100%;
+  }
+
+  100% {
+    right: 10%;
+    bottom: -10px;
   }
 }
