@@ -110,3 +110,15 @@
     transform: rotate(1turn);
   }
 }
+
+/* ESERCIZIO 11 */
+
+.ex-11-icon:hover {
+  animation: turn 3s linear infinite;
+}
+
+@keyframes turn {
+  75% {
+    transform: rotate(1turn);
+  }
+}
