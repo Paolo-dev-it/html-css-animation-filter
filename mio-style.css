@@ -35,3 +35,13 @@
   transform: border-radius;
   transition: 0.5s;
 }
+
+/* ESERCIZIO 4 */
+
+.ex-4-square:hover {
+  filter: opacity(0);
+}
+
+.ex-4-square {
+  transition: 1s;
+}
