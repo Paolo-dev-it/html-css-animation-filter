@@ -122,3 +122,41 @@
     transform: rotate(1turn);
   }
 }
+
+/* ESERCIZIO 12 */
+
+.ex-12-button:hover .ex-12-top-white {
+  animation: top-white 2s linear;
+}
+
+@keyframes top-white {
+  0% {
+    left: 15%;
+  }
+
+  50% {
+    left: 50%;
+  }
+
+  100% {
+    left: 15%;
+  }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: bottom-white 2s linear;
+}
+
+@keyframes bottom-white {
+  0% {
+    left: 15%;
+  }
+
+  50% {
+    left: 50%;
+  }
+
+  100% {
+    left: 15%;
+  }
+}
